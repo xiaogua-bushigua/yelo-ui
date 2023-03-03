@@ -1,0 +1,65 @@
+{
+  "id": "3783871",
+  "name": "vue3组件封装",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9080727",
+      "name": "gene",
+      "font_class": "gene",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "8642727",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "33011301",
+      "name": "left-copy",
+      "font_class": "right",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "22779607",
+      "name": "数译_加载",
+      "font_class": "shuyi_jiazai",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "1183028",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "4880421",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "13053966",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "17868595",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}
