@@ -1,15 +1,42 @@
-# Vue 3 + TypeScript + Vite
+# 🚀 yelo - ui
+
+
+
+基于 **Vue3 + TypeScript + Vite3** 的组件库
+
 对 tour(用户引导)、ecahrts、swiper、modal、button、textarea 组件实现封装
 
-`npm i hh-ui-yelo`
+`npm i yelo-ui`
 
-**npm:** https://www.npmjs.com/package/hh-ui-yelo
+**Github：**https://github.com/xiaogua-bushigua/yelo-ui
 
-组件页面引用
-`import { yeloTour } from 'hh-ui-yelo'`  
-`import 'hh-ui-yelo/dist/style.css'`
+**npm：**https://www.npmjs.com/package/yelo-ui
 
-## Tour
+**在线浏览：**http://175.24.176.28:8002/#/home
+
+
+
+## 🪡 使用方法
+
+**main.ts**
+
+```javascript
+import { createApp } from 'vue'
+import './style.css'
+import App from './App.vue'
+import yeloUI from '../dist/yelo-ui.js'
+import '../dist/style.css'
+
+createApp(App).use(yeloUI).mount('#app')
+```
+**组件页**
+```html
+<yeloTour :option="tourOptions" :show="true" />
+```
+
+
+
+## 🧩 Tour
 
 ```javascript
 const block1 = ref<Element>();
@@ -63,7 +90,7 @@ const tourOptions = [
 
 
 
-## Echarts
+## 🧩 Echarts
 
 ```typescript
 import * as echarts from 'echarts';
@@ -151,7 +178,7 @@ let option = ref(option1)
 
   
 
-## Swiper轮播
+## 🧩 Swiper 轮播
 
 ```typescript
 const imgsURL = ['/src/assets/swipers/1.jpeg', '/src/assets/swipers/2.jpeg', '/src/assets/swipers/3.jpeg']
@@ -183,7 +210,8 @@ const imgsURL1 = ['https://img2.baidu.com/it/u=2632730749,1389792745&fm=253&fmt=
   ```
 
 
-## Button
+
+## 🧩 Button
 
 - default、primary、success、info、danger、warning 六种基本样式类型
 
@@ -238,7 +266,7 @@ const imgsURL1 = ['https://img2.baidu.com/it/u=2632730749,1389792745&fm=253&fmt=
 
 
 
-## Textarea
+## 🧩 Textarea
 
 ```typescript
 const temp = ref("请输入内容")
@@ -299,7 +327,7 @@ const handleBlur = (tar: HTMLInputElement) => {
 
 
 
-## Modal
+## 🧩 Modal
 
 ```typescript
 let display = ref('none')
