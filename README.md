@@ -24,8 +24,8 @@ npm：https://www.npmjs.com/package/yelo-ui
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-import yeloUI from '../dist/yelo-ui.js'
-import '../dist/style.css'
+import yeloUI from 'yelo-ui'
+import 'yelo-ui/dist/style.css'
 
 createApp(App).use(yeloUI).mount('#app')
 ```
