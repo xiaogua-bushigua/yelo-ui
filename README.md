@@ -53,9 +53,9 @@ const tourOptions = [
 
 `content`：提示框里的文本内容
 
-`position`：提示框相对于高亮元素的位置，`['top/bottom', 'right/left']``
+`position`：提示框相对于高亮元素的位置，`['top/bottom', 'right/left']`
 
-``show`：控制组件显示
+`show`：控制组件显示
 
 ```vue
 <yelo-tour :option="tourOptions" :show="true"/>
