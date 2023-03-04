@@ -8,11 +8,11 @@
 
 `npm i yelo-ui`
 
-**Github：**https://github.com/xiaogua-bushigua/yelo-ui
+Github：https://github.com/xiaogua-bushigua/yelo-ui
 
-**npm：**https://www.npmjs.com/package/yelo-ui
+npm：https://www.npmjs.com/package/yelo-ui
 
-**在线浏览：**http://175.24.176.28:8002/#/home
+在线浏览：http://175.24.176.28:8002/#/home
 
 
 
