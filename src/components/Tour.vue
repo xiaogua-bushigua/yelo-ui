@@ -16,6 +16,9 @@ const block3 = ref<Element>();
 const block4 = ref<Element>();
 const block5 = ref<Element>();
 
+// target：ref 引用的元素
+// content：提示框里的文本内容
+// position：提示框相对于高亮元素的位置，['top/bottom', 'right/left']
 const tourOptions = [
 	{
 		target: block1,
