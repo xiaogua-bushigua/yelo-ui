@@ -82,10 +82,21 @@ const tourOptions = [
 
 `position`：提示框相对于高亮元素的位置，`['top/bottom', 'right/left']`
 
-`show`：控制组件显示
+`show`：控制组件显示【可选参数】
 
 ```vue
 <yelo-tour :option="tourOptions" :show="true"/>
+```
+
+实际使用时建议搭配 v-if 指令，以在组件外更好的控制：
+
+```javascript
+onMounted(() => {
+	if (localStorage.getItem('doneTour') !== 'yes') useMainStore().tourShow = true;
+  	else useMainStore().tourShow = false
+});
+
+<yeloTour :option="tourOptions" v-if="useMainStore().tourShow"/>
 ```
 
 
